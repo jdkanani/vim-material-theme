@@ -13,16 +13,16 @@ Installation
 1.  Move `material-theme.vim` to your `.vim/colors` directory. After downloading the 
     vim script or package:
 
-        $ mv material-theme/colors/material-theme.vim ~/.vim/colors/
+        $ mv colors/material-theme.vim ~/.vim/colors/
 
 ### Option 2: Pathogen installation ***(recommended)***
 
 1.  Download and install Tim Pope's [Pathogen].
 
-2.  Next, move or clone the `material-theme` directory so that it is a subdirectory of the `.vim/bundle` directory.
+2.  Next, move or clone the `vim-material-theme` directory so that it is a subdirectory of the `.vim/bundle` directory.
 
         $ cd ~/.vim/bundle
-        $ git clone https://github.com/jdkanani/material-theme
+        $ git clone https://github.com/jdkanani/vim-material-theme
 
 ### Modify .vimrc
 
