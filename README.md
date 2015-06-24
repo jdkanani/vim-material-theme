@@ -3,7 +3,7 @@ Material theme for vim
 
 Based on [Sublime Text 3 Material theme](https://github.com/equinusocio/material-theme) by [@equinusocio](https://github.com/equinusocio)
 
-![VIM screenshot](http://i.imgur.com/M2CF1m6.png)
+![VIM screenshot](http://i.imgur.com/VNxcv53.png)
 
 Installation
 ------------
