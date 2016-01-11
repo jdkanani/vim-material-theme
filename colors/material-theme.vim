@@ -176,6 +176,12 @@ call <sid>hi("TabLine",       s:gui03, s:gui01, s:cterm03, s:cterm01, "none")
 call <sid>hi("TabLineFill",   s:gui03, s:gui01, s:cterm03, s:cterm01, "none")
 call <sid>hi("TabLineSel",    s:gui03, s:gui01, s:cterm03, s:cterm01, "none")
 
+" Hide '~' at end of buffer in neovim
+" Set g:material_hide_endofbuffer = 0 to disable
+if has('nvim') && (!exists('g:material_hide_endofbuffer') || g:material_hide_endofbuffer == 1)
+  call <sid>hi("EndOfBuffer",s:gui00, s:gui00, s:cterm00, s:cterm00, "none")
+endif
+
 " Standard syntax highlighting
 call <sid>hi("Boolean",      s:gui0D, "", s:cterm0D, "", "none")
 call <sid>hi("Character",    s:gui08, "", s:cterm08, "", "none")
