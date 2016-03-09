@@ -275,7 +275,7 @@ call <sid>hi("NERDTreeExecFile",  s:gui0D, "", s:cterm0D, "", "")
 
 " PHP highlighting
 call <sid>hi("phpComparison",     s:gui05, "", s:cterm05, "", "")
-call <sid>hi("phpMethodsVar",     s:gui04, "", s:cterm04, "", "")
+call <sid>hi("phpMethodsVar",     s:gui07, "", s:cterm07, "", "")
 call <sid>hi("phpMemberSelector", s:gui04, "", s:cterm04, "", "")
 call <sid>hi("phpIdentifier",     s:gui04, "", s:cterm04, "", "")
 call <sid>hi("phpVarSelector",    s:gui04, "", s:cterm04, "", "")
