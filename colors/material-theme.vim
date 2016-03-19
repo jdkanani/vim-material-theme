@@ -172,9 +172,9 @@ call <sid>hi("CursorLine",    "", s:gui01, "", s:cterm01, "none")
 call <sid>hi("CursorLineNr",  s:gui03, s:gui01, s:cterm03, s:cterm01, "")
 call <sid>hi("PMenu",         s:gui04, s:gui01, s:cterm04, s:cterm01, "none")
 call <sid>hi("PMenuSel",      s:gui0A, s:gui01, s:cterm0A, s:cterm01, "")
-call <sid>hi("TabLine",       s:gui03, s:gui01, s:cterm03, s:cterm01, "none")
-call <sid>hi("TabLineFill",   s:gui03, s:gui01, s:cterm03, s:cterm01, "none")
-call <sid>hi("TabLineSel",    s:gui0F, s:gui01, s:cterm0F, s:cterm01, "none")
+call <sid>hi("TabLine",       s:gui03, s:gui00, s:cterm03, s:cterm00, "none")
+call <sid>hi("TabLineFill",   s:gui03, s:gui00, s:cterm03, s:cterm00, "none")
+call <sid>hi("TabLineSel",    s:gui0F, s:gui00, s:cterm0F, s:cterm00, "none")
 
 " Hide '~' at end of buffer in neovim
 " Set g:material_hide_endofbuffer = 0 to disable
