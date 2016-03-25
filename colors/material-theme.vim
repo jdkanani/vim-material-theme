@@ -255,7 +255,7 @@ call <sid>hi("htmlBold",    s:gui0A, "", s:cterm0A, "", "")
 call <sid>hi("htmlItalic",  s:gui0E, "", s:cterm0E, "", "")
 call <sid>hi("htmlEndTag",  s:gui04, "", s:cterm04, "", "")
 call <sid>hi("htmlTag",     s:gui04, "", s:cterm04, "", "")
-call <sid>hi("htmlTagName", s:gui0D, "", s:cterm0D, "", "")
+call <sid>hi("htmlTagName", s:gui07, "", s:cterm07, "", "")
 call <sid>hi("htmlArg",     s:gui04, "", s:cterm04, "", "")
 
 " JavaScript highlighting
@@ -290,6 +290,7 @@ call <sid>hi("phpKeyword",        s:gui05, "", s:cterm05, "", "")
 call <sid>hi("phpClassExtends",   s:gui0A, "", s:cterm0A, "", "")
 call <sid>hi("phpInclude",        s:gui05, "", s:cterm05, "", "")
 call <sid>hi("phpUseClass",       s:gui0A, "", s:cterm0A, "", "")
+call <sid>hi("phpBoolean",        s:gui05, "", s:cterm05, "", "")
 
 " Python highlighting
 call <sid>hi("pythonOperator",  s:gui04, "", s:cterm04, "", "")
