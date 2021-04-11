@@ -17,7 +17,7 @@ Installation
 
 ### Option 2: Pathogen installation ***(recommended)***
 
-1.  Download and install Tim Pope's [Pathogen].
+1.  Download and install [Tim Pope's Pathogen](https://github.com/tpope/vim-pathogen).
 
 2.  Next, move or clone the `vim-material-theme` directory so that it is a subdirectory of the `.vim/bundle` directory.
 
